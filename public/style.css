@@ -1,0 +1,65 @@
+/* ----- Animation Stuff ------- */
+
+.anim_background {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    background: #f6f7f9;
+    background-image: linear-gradient(to right, #f6f7f9 0%, #e9ebee 20%, #f6f7f9 40%, #f6f7f9 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 410px;
+    border-radius: 10px;
+    height: 410px;
+    position: relative;
+}
+section{
+  padding: 12px;
+  max-width: 576px;
+  height: 600px;
+  margin: 4rem auto;
+  background-color: #fff;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-radius: 3px;
+
+}
+
+.anim_background div {
+    background: #fff;
+    height: 20px;
+    left: 0;
+    position: relative;
+    right: 0;
+}
+div.a {
+    top: 200px;
+}
+
+div.b {
+    height: 10px;
+    top: 230px;
+}
+div.c {
+    height: 10px;
+    top: 270px;
+}
+div.d {
+    height: 10px;
+    top: 310px;
+}
+div.e {
+    height: 10px;
+    top: 350px;
+}
+
+
+@keyframes placeHolderShimmer{
+  
+0% {
+    background-position: -468px 0;
+}
+100% {
+    background-position: 468px 0;
+}
+}

@@ -1,0 +1,40 @@
+.home-humility{
+  text-align: center;
+}
+
+.home-fa-twitter{
+  margin-left: 2em;
+}
+
+.google-btn {
+  position: relative;
+  margin: auto;
+  top: 300px;
+}
+
+.zebra-hero {
+  position: relative;
+  margin: auto;
+  font-family: 'IBM Plex Sans','Lato', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+  top: 200px;
+}
+
+.zebra-desc {
+  position: relative;
+  margin: auto;
+  font-family: 'IBM Plex Sans','Lato', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  top: 200px;
+}
+
+.zebra-logo {
+  position: relative;
+  margin: auto;
+  font-family: 'IBM Plex Sans','Lato', sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+  top: 50px;
+}

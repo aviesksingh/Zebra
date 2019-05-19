@@ -1,0 +1,81 @@
+{
+  "name": "Zebra",
+  "homepage": "http://zebra.usesmoothie.com",
+  "version": "1.0.0",
+  "description": "Real time collaboration",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "redux",
+    "react-router",
+    "bootstrap",
+    "webpack",
+    "jwt",
+    "auth0",
+    "dashboard",
+    "template",
+    "boilerplate",
+    "create-react-app",
+    "websockets",
+    "socket.io",
+    "PWA",
+    "Progressive Web Apps"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "proxy": "http://0.0.0.0",
+  "devDependencies": {
+    "react-scripts": "1.0.17"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "braft-editor": "^1.8.7",
+    "classnames": "^2.2.5",
+    "dhtmlx-gantt": "^5.1.0",
+    "faye": "^1.2.4",
+    "font-awesome": "^4.7.0",
+    "gantt-for-react": "^0.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.2.1",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.4",
+    "megadraft": "^0.4.37",
+    "moment": "^2.22.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "popper.js": "^1.12.6",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-big-calendar": "^0.19.0",
+    "react-big-calendar-like-google": "0.0.3",
+    "react-bootstrap": "^0.32.1",
+    "react-calendar": "^2.14.0",
+    "react-checkbox-list": "0.0.2",
+    "react-checkbox-tree": "^1.1.0",
+    "react-dom": "^16.0.0",
+    "react-google-login": "^3.2.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-trello": "^1.29.0",
+    "react-virtualized": "^9.12.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "rodal": "^1.6.3",
+    "socket.io-client": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

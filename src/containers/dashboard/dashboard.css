@@ -1,0 +1,44 @@
+.cal_area_dash {
+    height: 400px;
+}
+
+.project_cards_area {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        max-width: 100px;
+        flex: 0 0 33.333333%;
+    }
+}
+
+
+.new-project-card {
+    padding-top: 20px;
+}
+
+.col-md-4 {
+    max-width: 100px;
+    flex: 0 0 33.333333%;
+}
+
+.project-card {
+    cursor: pointer;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}

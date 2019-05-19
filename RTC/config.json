@@ -1,0 +1,6 @@
+{
+    "port": 80,
+    "environment": "dev",
+    "pipelining": true,
+    "auth_url": ""
+}

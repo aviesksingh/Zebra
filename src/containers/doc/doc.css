@@ -1,0 +1,135 @@
+.home-humility{
+    text-align: center;
+  }
+  
+  .home-fa-twitter{
+    margin-left: 2em;
+  }
+  
+  .gantt_data_area .gantt_task_line{
+    border-radius: 20px;
+  }
+
+  .chatInput {
+    outline: none;
+    border: none;
+  }
+  
+  .chatArea {
+    position: fixed;
+    left:0px;
+    bottom: 0px;
+    width: 200px;
+    height: 50%;
+  }
+
+  .sendBtn {
+    margin-left: 10px;
+    width: 20%;
+  }
+
+  .chatTextArea {
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    margin: 10px;
+  }
+
+  .msgName {
+    background: #1e6be8;
+    padding: 5px;
+    color: #FFF;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+
+  .dJewwL {
+    background-color: #f0da15;
+    border-radius: 3px;
+    margin: 5px 5px;
+    position: relative;
+    padding: 10px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: auto;
+    max-height: 90%;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+  .messageList {
+    position: absolute;
+    padding: 10px;
+    height: 200px;
+    bottom: 50px;
+    overflow: auto;
+  }
+
+  .msgBody {
+    position: relative;
+    margin: 10px;
+    bottom:0;
+  }
+
+  .editor {
+    position: relative;
+    /*z-index: 1500;*/
+    margin: auto;
+    width: 60%;
+    margin-right: 15%;
+    margin-left: 15%;
+    min-height: 500px;
+    top: 80px;
+  }
+  
+  .cal_sidebar {
+    position: fixed;
+    float: right;
+    right: 10px;
+    min-width: 400px;
+    width: 40%;
+    height: 85%;
+    top: 50px;
+    overflow: auto;
+    margin: 10px;
+    bottom: 40px;
+  }
+  
+  .fixed-top {
+    z-index: 200;
+  }
+  
+  .cal_area {
+    background: #FFFFFF;
+    z-index: 2000;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 7px 34px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 7px 34px -11px rgba(0,0,0,0.75);
+    box-shadow: 2px 7px 34px -11px rgba(0,0,0,0.75);
+  }
+  
+  .rbc-calendar {
+    font-family: 'IBM Plex Sans','Lato', sans-serif;
+  }
+  
+  .rbc-event {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'IBM Plex Sans','Lato', sans-serif;
+  }
+  
+  .megadraft-editor .DraftEditor-root, .megadraft-editor {
+    font-family: 'IBM Plex Sans','Lato', sans-serif;
+    font-weight: 200;
+    color: #181818;
+    font-size: 1.5rem;
+    letter-spacing: -0.037rem;
+    line-height: 1.75rem;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
